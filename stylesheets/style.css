@@ -63,18 +63,22 @@ header.hours{
 a.hours:link{
 	color:white;
 	text-decoration:none;
+    border:none;
 	}
 a.hours:visited{
 	color:white; 
 	text-decoration:none;
-	}
+	border:none;
+}
 a.hours:active{color:red; 
 	text-decoration:none;
+    border:none;
 	}
 a.hours:hover{ 
 	color:red !important;
 	text-shadow: 2px 2px black;
-	}
+	border:none;
+}
 #hrsbg{
 	position:relative;
 	left:590px;
@@ -300,10 +304,10 @@ footer.text{
 	float:right;
 	height:25px;
 }
-a:link{color:black;text-decoration:none;}
-a:visited{color:black; text-decoration:none;}
-a:active{color:black; text-decoration:none;}
-a:hover{ color:white;}
+a:link{color:black;text-decoration:none;border:none;}
+a:visited{color:black; text-decoration:none;border:none;}
+a:active{color:black; text-decoration:none;border:none;}
+a:hover{ color:white;border:none;}
 
 menu.background{
 	background-color:#E7C6A5;
@@ -319,17 +323,17 @@ menu.background{
 	position:relative;
 	text-align:center;
 	top:30px;
-	font-family:fantasy;
-	font-size:30px;
+	font-family:"Covered By Your Grace", cursive;
+	font-size:35px;
 }
 .menuLeft{
 	position:relative;
 	float:left;
 	top:50px;
 	left:125px;
-	width:125px;
-	font-family:fantasy;
-	font-size:16px;		
+	width:150px;
+	font-family:"Covered By Your Grace", cursive;
+	font-size:18px;		
 }
 .pricesLeft{
 	position:relative;
@@ -344,9 +348,9 @@ menu.background{
 	top:50px;
 	float:right;
 	right:150px;
-	width:130px;
-	font-family:fantasy;
-	font-size:16px;	
+	width:150px;
+	font-family:"Covered By Your Grace", cursive;
+	font-size:18px;	
 }
 .pricesRight{
 	position:relative;
@@ -360,19 +364,19 @@ menu.background{
 	position:relative;
 	float:left;
 	text-align:left;
-	left:220px;
+	left:320px;
 	top:100px;
-	width:125px;
-	font-family:fantasy;
-	font-size:16px;
+	width:160px;
+	font-family:"Covered By Your Grace", cursive;
+	font-size:18px;
 }
 .pricesMiddle{
 	position:relative;
 	top:330px;
-	left:325px;
+	left:340px;
 	float:left;
 	font-family:fantasy;
-	font-size:16px;
+	font-size:18px;
 }
 .menuLeftHeading{
 	float:left;
@@ -443,10 +447,10 @@ contact.background{
 	float:left;
 	margin:30px 0 0 60px;
 	color:black;
-	font-size:20px;
+	font-size:25px;
 	text-align:left;
 	font-weight:regular;
-	font-family:fantasy;
+	font-family:"Covered By Your Grace", cursive;
 }
 .contactSubHeading {
 	float:left;
@@ -573,7 +577,7 @@ contact.background{
 	top:20px;
 	left:25px;
 	font-size:20px;
-	font-family:fantasy;
+	font-family:"Covered By Your Grace", cursive;
 }
 #hoursRegText{
 	position:relative;
@@ -586,5 +590,6 @@ contact.background{
 	height:283px;
 	width:275px;
 	font-size:12px;
-	
 }
+a img { border: none; }
+
